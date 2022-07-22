@@ -33,7 +33,7 @@ export default defineConfig(async ({ command, mode, ssrBuild }) => {
                     "@": resolve(__dirname, "src"), // 设置 `@` 指向 `src` 目录
                 },
             },
-            base: "./", // 设置打包路径
+            base: "/VITE-ELEMENTPLUS-TS/", // 设置打包路径
             server: {
                 watch: {
                     ignored: ['!**/node_modules/your-package-name/**']
