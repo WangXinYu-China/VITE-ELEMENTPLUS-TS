@@ -1,0 +1,75 @@
+/* 初始化样式
+------------------------------- */
+* {
+	margin: 0;
+	padding: 0;
+	// box-sizing: border-box;
+	outline: none !important;
+}
+
+html,
+body,
+#app {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-webkit-tap-highlight-color: transparent;
+	background-color: #f8f8f8;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 主布局样式
+------------------------------- */
+.content-box {
+    position: absolute;
+    left: 250px;
+    right: 0;
+    top: 70px;
+    bottom: 0;
+    padding-bottom: 30px;
+    -webkit-transition: left .3s ease-in-out;
+    transition: left .3s ease-in-out;
+    background: #f0f0f0;
+}
+.content {
+    width: auto;
+    height: calc(100vh - 140px);
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: white;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+.content-collapse {
+    left: 65px;
+}
+
+.tags-li.active {
+    color: #fff;
+    border: 1px solid #409EFF;
+    background-color: #409EFF;
+}
+/* element plus 全局样式
+------------------------------- */
+/* nprogress 进度条跟随主题颜色
+------------------------------- */
+/* flex 弹性布局
+------------------------------- */
+/* 宽高 100%
+------------------------------- */
+/* 颜色值
+------------------------------- */
+/* 字体大小全局样式
+------------------------------- */
+/* 外边距、内边距全局样式
+------------------------------- */

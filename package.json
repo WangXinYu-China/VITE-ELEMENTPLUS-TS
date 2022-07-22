@@ -1,0 +1,27 @@
+{
+    "name": "vite-ts",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite --mode development",
+        "build": "vite build --mode product",
+        "development": "vite build --mode development",
+        "serve": "vite --mode product"
+    },
+    "dependencies": {
+        "@element-plus/icons": "0.0.11",
+        "axios": "^0.27.2",
+        "element-plus": "^2.2.6",
+        "vue": "^3.2.37",
+        "vue-i18n": "^9.2.0-beta.17",
+        "vue-router": "^4.0.12",
+        "vuex": "^4.0.2"
+    },
+    "devDependencies": {
+        "@types/node": "^16.11.6",
+        "@vitejs/plugin-vue": "^1.10.2",
+        "sass": "^1.43.4",
+        "typescript": "^4.4.3",
+        "vite": "^3.0.2",
+        "vue-tsc": "^0.3.0"
+    }
+}
