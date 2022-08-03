@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t,a as o}from"./index.3e0677c9.js";const n={name:"home",setup(){return s(()=>{}),{}}},r={class:"system-primary"};function a(c,_,p,d,i,m){return o(),t("div",r)}const f=e(n,[["render",a]]);export{f as default};
